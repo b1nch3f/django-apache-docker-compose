@@ -1,0 +1,11 @@
+version: "3.9"
+   
+services:
+  web:
+    build: .
+    # command: python manage.py runserver 0.0.0.0:8000
+    command: mod_wsgi-express start-server /code/mysite/wsgi.py --user www-data --group www-data
+    volumes:
+      - .:/code
+    ports:
+      - "8000:8000"
