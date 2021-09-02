@@ -8,8 +8,4 @@ pytz==2021.1
 sqlparse==0.4.1
 # modified3 by main
 wincertstore==0.2
-<<<<<<< HEAD
-# modified4 by test
-=======
-# modified4 by main
->>>>>>> cb3ef201f218ae9a8b92e01ffce21e912e098824
+# modified5 by main
